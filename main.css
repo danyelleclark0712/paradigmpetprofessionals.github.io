@@ -1,0 +1,207 @@
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+
+.body {
+  background-color: rgb(255, 237, 180);
+  color: #000;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  box-shadow: 0 0 10px #333;
+}
+
+.p-5 {
+  background-image:url("/Images/PPP\ image.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-decoration-color: darkslategray;
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
+}
+
+.h2 {
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
+} 
+
+/* CATS HOMEPAGE */
+
+.cats__p-5 {
+  background-image:url("/Images/cats\ eyes\ images.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  text-decoration-color: darkslategray;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  height: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  display: block;
+  
+}
+
+.cats__h5 {
+  font-size: 22px;
+  font-weight: bold;
+  height: 150px
+}
+/* END OF CATS HOMEPAGE */
+
+
+
+/* DOGS HOMEPAGE */
+
+.dogs__p-5 {
+  background-image:url("/Images/dog\ eyes.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  text-decoration-color: darkslategray;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  height: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  display: block;
+  
+}
+
+/* END OF DOGS HOMEPAGE */
+
+/* BIRDS */
+
+.birds__p-5 {
+  background-image:url("/Images/birds.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  text-decoration-color: darkslategray;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  height: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  display: block;
+}
+/* END OF BIRDS HOMEPAGE */
+
+
+/* FISH HOMEPAGE */
+
+.fish__p-5 {
+  background-image:url("/Images/fish.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  text-decoration-color: darkslategray;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  height: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  display: block;
+}
+
+
+/* END OF FISH HOMEPAGE */
+
+
+/* SMALL-ANIMALS HOMEPAGE */
+
+  .small-animals__p-5 {
+    background-image:url("/Images/Small\ Animals\ image.jpeg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+    text-decoration-color: darkslategray;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+  }
+
+  /* FAQS HOMEPAGE */
+
+  .faqs__p-5 {
+    background-image:url("/Images/faqs\ logo.jpeg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+    text-decoration-color: darkslategray;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+    height: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    display: block;
+  }
+
+  .faqs__statement h2 {
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+/* CONSULTATION FORM */
+
+.consultations__p-5 {
+  background-image:url("/Images/faqs\ logo.jpeg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: contain;
+  text-decoration-color: darkslategray;
+  text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+.form{
+  display:block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+.request-form_button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.consultations__container {
+  min-height: 100vh;
+  background: #bdbdbd ;
+  color:#003b6d;
+  flex-direction: column;
+  justify-content: center;
+  display:flex;
+  font-family: sans-serif;
+  margin:auto;
+  width:500px;
+  max-width:90%;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding:1rem 3rem;
+  border:2px solid #6699cc;
+}
+
+.footer {
+ height: 2.3rem;
+  background-color:#003b6d; 
+  color:#fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  padding:10px;
+}
